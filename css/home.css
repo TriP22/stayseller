@@ -1,0 +1,9 @@
+.th-header-img{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.th-header-text{
+    text-align: center;
+}
