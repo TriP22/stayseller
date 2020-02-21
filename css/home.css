@@ -1,3 +1,4 @@
+body{background-color: #F5F5F5;}
 .th-header-img{
     height: 500px;
     background-size: cover;
@@ -12,6 +13,9 @@
     
 }
 
+.th-text-tiri{
+    font-size: 24px;
+}
 .th-header-overlay{
     background-color: rgba(0, 0, 0, 0.2);
 
@@ -20,20 +24,65 @@
     height: 3px; 
     width: 100px;
     padding-left: 10px;
-    background-color: rgba(255, 0, 0, 0.856);
+    background-color: #D29751;
     left: 0;
     bottom: -10px;
+}
+
+.th-vl{
+    border-left: 1px solid grey;
+    height: 30px;
 }
 
 /* card */
 .th-header-kheemach{
     font-size: 14px;
+    color: #AA7938;
+    text-decoration: underline;
+
 }
 .th-icon-location{
     font-size: 40px;
+    color:  #AA7938;
 
 }
 .th-icon-phone{
-    font-size: 30px;
+    font-size: 35px;
 }
- 
+
+.th-card-viewmenu{
+    color: #AA7938;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.th-card-viewdetails{
+    color: #AA7938;
+    text-decoration: underline;
+    font-size: 14px;
+
+}
+
+.th-icon-utensils{
+    color: #AA7938;
+    border: 10px;
+    font-size: 20px;
+}
+
+.th-card-number{
+    font-size: 14px;
+}
+.th-cuisine{
+    color: #AA7938;
+    font-size: 14px;
+}
+.th-dresscode{
+    color: #AA7938;
+    font-size: 14px;
+}
+.th-multicuisine{
+    font-size: 14px;
+}
+.th-24hours{
+    font-size: 14px;
+}
