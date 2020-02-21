@@ -1,6 +1,7 @@
 /* general */
 body{
-    background: white;
+    background: #fdfdfd;
+    
 }
 .th-ral{
     font-family: 'Raleway', sans-serif;
@@ -19,6 +20,9 @@ body{
 }
 .th-20{
     font-size: 20px;
+}
+.th-24{
+    font-size: 24px;
 }
 .th-30{
     font-size: 30px;
@@ -61,11 +65,16 @@ body{
 /* Link */
 .th-link:hover {
     text-decoration: none;
-    color: #F2726F;
+    color: #d29751;
+}
+.th-link-1:hover {
+    text-decoration: none;
+    font-weight: bold;
+    color:white;
 }
 /* BG Color */
 .th-bg-gradient{
-    background: linear-gradient(81.37deg, #DC4946 0.29%, #F2726F 49.91%, #FFC533 100%);
+    background-image: linear-gradient(to left, #7b5519, #aa7938 52%, #d29851);
 }
 .th-bg-blue{
     background: #5D62B5;
@@ -93,11 +102,47 @@ body{
     background: #959595;
 }
 .th-bg-grey-2{
-    background: #D5D5D5;
+    background: #efeeee;
 }
 .th-bg-grey-1{
     background: #F5F5F5;
 }
 .th-bg-white{
     background: #FFFFFF;
+}
+/* Button */
+.th-btn{
+    border-radius: 0px;
+    color: white;
+    background-image: linear-gradient(to left, #7b5519, #aa7938 52%, #d29851);
+    border: none;
+}
+
+/* hr */
+.th-hr-1{
+    height: 3px;
+    width: 100px;
+    background-color: #d29751;
+    margin-left: 0px;
+}
+/* CARD */
+.th-card-happ-img{
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.th-card-popular-img{
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.th-shadow{
+    box-shadow: 0 0.625rem 0.75rem 0.625rem rgba(0, 0, 0, 0.05);
+}
+
+/* Icon */
+.th-icon-watch{
+    color: #d29751;
 }
