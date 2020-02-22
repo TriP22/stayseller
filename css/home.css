@@ -81,8 +81,45 @@ body{background-color: #F5F5F5;}
     font-size: 14px;
 }
 .th-multicuisine{
-    font-size: 14px;
-}
+    font-size: 14px;}
+    
+
 .th-24hours{
     font-size: 14px;
 }
+.th-btn{
+    border-radius: 0px;
+    color: white;
+    background-image: linear-gradient(to left, #7b5519, #aa7938 52%, #d29851);
+    border: none;
+}
+.th-image{
+    min-height: 250px;
+}
+.th-photos{
+    color: white;
+    padding: 8px;
+    background-color: #212529;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 8px;
+    
+}
+.th-externallink{
+    font-size: 25px;
+}
+
+/* slider */
+.th-sliderimage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+.th-slidertext{
+font-size: 25px;
+}
+
+
