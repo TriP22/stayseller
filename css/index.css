@@ -1,10 +1,13 @@
 /* general */
 body{
-    background: #fdfdfd;
+    background: rgb(250, 250, 250);
     
 }
 .th-ral{
     font-family: 'Raleway', sans-serif;
+}
+.th-10{
+    font-size: 10px;
 }
 .th-12{
     font-size: 12px;
@@ -138,6 +141,12 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+.th-card-brand-img{
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .th-shadow{
     box-shadow: 0 0.625rem 0.75rem 0.625rem rgba(0, 0, 0, 0.05);
 }
@@ -145,4 +154,9 @@ body{
 /* Icon */
 .th-icon-watch{
     color: #d29751;
+}
+
+
+.th-focus-off:focus{
+    outline:none !important;
 }
