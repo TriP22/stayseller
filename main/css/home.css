@@ -1,0 +1,127 @@
+body{background-color: #F5F5F5;}
+.th-header-img{
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.th-header-text{
+    padding-top: 150px;
+    color: white;
+    text-shadow:2px 2px rgba(0, 0, 0);
+    
+}
+
+.th-text-tiri{
+    font-size: 24px;
+}
+.th-header-overlay{
+    background-color: rgba(0, 0, 0, 0.2);
+
+}
+.th-header-underline{
+    height: 3px; 
+    width: 100px;
+    padding-left: 10px;
+    background-color: #D29751;
+    left: 0;
+    bottom: -10px;
+}
+
+.th-vl{
+    border-left: 1px solid grey;
+    height: 30px;
+}
+
+/* card */
+.th-header-kheemach{
+    font-size: 14px;
+    color: #AA7938;
+    text-decoration: underline;
+
+}
+.th-icon-location{
+    font-size: 40px;
+    color:  #AA7938;
+
+}
+.th-icon-phone{
+    font-size: 35px;
+}
+
+.th-card-viewmenu{
+    color: #AA7938;
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.th-card-viewdetails{
+    color: #AA7938;
+    text-decoration: underline;
+    font-size: 14px;
+
+}
+
+.th-icon-utensils{
+    color: #AA7938;
+    border: 10px;
+    font-size: 20px;
+}
+
+.th-card-number{
+    font-size: 14px;
+}
+.th-cuisine{
+    color: #AA7938;
+    font-size: 14px;
+}
+.th-dresscode{
+    color: #AA7938;
+    font-size: 14px;
+}
+.th-multicuisine{
+    font-size: 14px;}
+    
+
+.th-24hours{
+    font-size: 14px;
+}
+.th-btn{
+    border-radius: 0px;
+    color: white;
+    background-image: linear-gradient(to left, #7b5519, #aa7938 52%, #d29851);
+    border: none;
+}
+.th-image{
+    min-height: 250px;
+}
+.th-photos{
+    color: white;
+    padding: 8px;
+    background-color: #212529;
+    background: rgba(0, 0, 0, 0.75);
+    font-size: 14px;
+    position: absolute;
+    bottom:0;
+    margin-bottom: 8px;
+    
+}
+.th-externallink{
+    font-size: 25px;
+}
+
+/* slider */
+.th-sliderimage{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 350px;
+}
+.th-slidertext{
+font-size: 25px;
+}
+.th-round{
+    padding-left: 30px;
+}
+

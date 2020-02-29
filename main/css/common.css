@@ -1,0 +1,256 @@
+/* general */
+body{
+    background: rgb(255, 255, 255);
+}
+.th-top-offset{
+    height: 80px;
+}
+.th-logo-1{
+    height: 65px;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+@media only screen and (max-width: 600px) {
+  .th-logo-1{height: 45px;}
+  .th-top-offset{height: 60px;}
+}
+.th-logo-2{
+    height: 45px;
+    background-position-x: left;
+    background-position-y: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.th-rob{
+    font-family: 'Roboto', sans-serif;
+}
+.th-12{
+    font-size: 12px;
+}
+.th-14{
+    font-size: 14px;
+}
+.th-16{
+    font-size: 16px;
+}
+.th-18{
+    font-size: 18px;
+}
+.th-20{
+    font-size: 20px;
+}
+.th-24{
+    font-size: 24px;
+}
+.th-30{
+    font-size: 30px;
+}
+.th-32{
+    font-size: 32px;
+}
+.th-34{
+    font-size: 34px;
+}
+.th-36{
+    font-size: 36px;
+}
+.th-48{
+    font-size: 48px;
+}
+.th-72{
+    font-size: 72px;
+}
+/* font weight */
+.th-thin{
+    font-weight: 100;
+}
+.th-light{
+    font-weight: 300;
+}
+.th-regular{
+    font-weight: 400;
+}
+.th-medium{
+    font-weight: 500;
+}
+.th-bold{
+    font-weight: 700;
+}
+/* font color */
+.th-black{
+    color: #1A1D22;
+}
+.th-lt-black{
+    color: #363840;
+}
+.th-grey{
+    color:#30373F;
+}
+.th-lt-grey{
+    color:#7B7D84;
+}
+.th-orange{
+    color: #F2994A;
+}
+.th-white{
+    color: #FFFFFF;
+}
+
+/* Link */
+.th-link-orange:hover {
+    text-decoration: none;
+    color: #F2994A;
+}
+.th-link-white:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.th-link-black:hover {
+    text-decoration: none;
+    color: #1A1D22;
+}
+
+/* BUTTON */
+.th-btn-solid{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #FFFFFF;
+    background: #1A1D22;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+.th-btn-trans{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1A1D22;
+    background: #ffffff00;
+    border-radius: 3px;
+    border: 1px solid #1A1D22;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+.th-btn-white{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    color: #1A1D22;
+    background: #ffffff;
+    border-radius: 3px;
+    border: 1px solid #FFFFFF;
+    padding: 10px 24px;
+    font-weight: 600;
+}
+
+/* BG Color */
+.th-bg-black{
+    background: #000000;
+}
+.th-bg-grey{
+    background: #EDEEF0;
+}
+.th-bg-orange{
+    background:#F2994A;
+}
+.th-bg-white{
+    background:#FFFFFF;
+}
+ /*margin*/
+ .mb-0{
+    margin-bottom: 0;
+ }
+ .mt-0{
+    margin-top: 0;
+ }
+/*padding*/
+.pr-0{
+    padding-right: 0px;
+}
+.pl-0{
+    padding-left:0px;
+}
+.px-30{
+    padding-left: 30px;
+    padding-right: 30px
+}
+.px-10{
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+/*strike through*/
+.th-strike{
+    text-decoration: line-through;
+}
+/*Radio button*/
+/* CARDS */
+.th-ribbon {
+    margin-top: 10px;
+    margin-left: 16px;
+    padding: 12px 6px;
+    height: 20px;
+    background: #FFFFFF;
+    font-family: arial;
+    font-weight: 400;
+    text-transform: capitalize;
+    color: #1A1D22;
+    font-size: 10px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 18px 32px rgba(0, 0, 0, 0.08);
+    border-radius: 3px;
+}
+.th-card-img{
+  height: 40vh;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px 3px 0px 0px;
+}
+.th-card
+{
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+  background-color: #fff; 
+  border-radius: 3px 3px 0px 0px;
+}
+.th-card-body
+{
+  background-color: none;
+  border-bottom-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+
+.hero-image {
+  background-color: #cccccc;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  position: absolute;
+  top: 30%;
+  left: 15%;
+}
+.hero-text2 {
+  position: absolute;
+  top: 80%;
+}
+.bgimage {
+  width:100%;
+  height:70vh;
+  /*background: url('https://images.unsplash.com/photo-1438109491414-7198515b166b?q=80&fm=jpg&s=cbdabf7a79c087a0b060670a6d79726c');*/
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  /*background-attachment: fixed;*/
+}
+
