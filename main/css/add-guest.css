@@ -1,0 +1,21 @@
+.add-guest-form {
+  padding: 6px 12px;
+  width: 100%;
+  border: 1px solid #dfe3eb;
+  background: #fcfdfe;
+}
+.add-guest-form > input:active,
+input:focus {
+  background: #fcfdfe;
+  border: 1px solid #363840;
+}
+.add-guest-form > select:active,
+select:focus {
+  outline-color: #36384000;
+  border: 1px solid #363840;
+}
+.add-guest-form > textarea:active,
+textarea:focus {
+  outline-color: #36384000;
+  border: 1px solid #363840;
+}
