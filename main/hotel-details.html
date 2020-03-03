@@ -75,7 +75,7 @@
             <option value="3">Room 2 - 4 Guests - 0 Child</option>
           </select>
         </div>
-        <div class="col-lg-3 ">
+        <div class="col-lg-2 offset-lg-1 ">
           <!-- <div class="th-14 th-medium th-lt-grey text-uppercase">Traveling to</div> -->
           <div><button type="submit" class="th-btn-solid my-2">Select Rooms</button></div>
         </div>
@@ -85,7 +85,7 @@
 
   <div class="container">
     <div class="row th-card">
-      <div class="col-lg-6 p-5">
+      <div class="col-lg-6 p-5" id="heightTest">
         <div class="th-30 th-black th-bold py-2">Taj Jumeirah Lakes Towers</div>
         <div class="th-14 th-orange th-medium py-1"><i class="fa fa-bed th-18 pr-2"></i>Apollo Bunder , Mumbai , 400 001
         </div>
@@ -111,7 +111,7 @@
           <div><i class="fa fa-bed th-18 pr-2"></i>Swimming Pool</span></div>
         </div>
         <div class="py-3"><a href="" class="th-medium th-18 th-orange ">View all</a></div>
-        <div class="th-24 th-medium th-black">Hotel Highlights</div>
+        <div class="th-24 th-medium th-black py-2">Hotel Highlights</div>
         <div class="th-18 th-grey">Check-in from 2:00 PM<br>
           Check-out till 12:00 PM<br>
           Early check-in and late check-out on request<br>
@@ -119,7 +119,7 @@
           Pets are not allowed
         </div>
       </div>
-      <div class="col-lg-6 px-5 pt-5" style="height: 105vh; overflow-y: scroll;">
+      <div class="col-lg-6 px-5 pt-5" id="bg1">
         <div class="row">
           <div class="col-md-6 py-2">
             <img src="img/img.png" class="img-fluid img-border-radius">
@@ -136,10 +136,28 @@
             <img src="img/img.png" class="img-fluid img-border-radius">
           </div>
         </div>
-        <div class="row justify-content-between">
-          <div class="col-md-6 py-2 scroll-img pr-0 pl-0" style="background-image: url('img/img.png');">
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
           </div>
-          <div class="col-md-6 py-2 scroll-img pr-0 pl-0" style="background-image: url('img/header.png');">
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
+          </div>
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
+          </div>
+          <div class="col-md-6 py-2">
+            <img src="img/img.png" class="img-fluid img-border-radius">
           </div>
         </div>
         <div class="row">
@@ -170,11 +188,18 @@
     </div>
   </div>
 
+<div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="th-48 th-bold th-black pt-5 ">Select Room</div>
+      </div>
+    </div>
+  </div>
 
 
 
-  <div class="container py-4 px-30">
-    <div class="th-48 th-bold th-black py-3">Select Room</div>
+  <div class="container py-2 px-30">
+    
     <div class="py-4">
       <div class="row th-card align-items-center">
         <div class="col-lg-4 pr-0 pl-0">
@@ -206,14 +231,14 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="radio-item th-18">
-                      <input type="radio" id="ritemb" name="ritem" value="ropt2">
-                      <label for="ritemb">Room only</label>
+                      <input type="radio" id="test1" name="ritem"  value="ropt2">
+                      <label for="test1">Room only</label>
                     </div>
                   </div>
                   <div class="col-lg-8">
                     <div class="radio-item th-18 ">
-                      <input type="radio" id="ritemb" name="ritem" value="ropt2">
-                      <label for="ritemb">Room with breakfast</label>
+                      <input type="radio" id="test2" name="ritem" value="ropt2">
+                      <label for="test2">Room with breakfast</label>
                     </div>
                   </div>
                 </div>
@@ -292,7 +317,6 @@
             <div class="th-ribbon"><i class="las la-clock th-18 px-1"></i> Open for bookings from 1st Mar 2020</div>
             <br><br>
             <div class="th-ribbon mt-0">20% Off</div>
-
           </div>
         </div>
         <div class="col-lg-8">
@@ -317,14 +341,14 @@
                 <div class="row">
                   <div class="col-lg-4">
                     <div class="radio-item th-18">
-                      <input type="radio" id="ritemb" name="ritem" value="ropt2">
-                      <label for="ritemb">Room only</label>
+                      <input type="radio" id="test3" name="ritem" value="ropt2">
+                      <label for="test3">Room only</label>
                     </div>
                   </div>
                   <div class="col-lg-8">
                     <div class="radio-item th-18 ">
-                      <input type="radio" id="ritemb" name="ritem" value="ropt2">
-                      <label for="ritemb">Room with breakfast</label>
+                      <input type="radio" id="test4" name="ritem" value="ropt2">
+                      <label for="test4">Room with breakfast</label>
                     </div>
                   </div>
                 </div>
@@ -419,6 +443,7 @@
         });
       });
     </script>
+    <!-- toogle button -->
     <script>
       $(document).ready(function () {
         $("#roomDetails2").click(function () {
@@ -437,6 +462,14 @@
         startDate: "now"
       });
     </script>
+    <!-- image scroll -->
+    <script>
+    $(document).ready(function () {
+      var height = $("#heightTest").outerHeight()
+      $("#bg1").css({  "height": height-480 , "overflow": "scroll" });
+    });
+  </script>
+
 
 </body>
 

@@ -69,6 +69,40 @@ body {
 .th-72 {
   font-size: 72px;
 }
+
+@media only screen and (max-width: 767px) {
+.th-16 {
+  font-size: 14px;
+}
+.th-18 {
+  font-size: 15px;
+}
+.th-24{
+  font-size: 18px
+}
+.th-30 {
+  font-size: 22px;
+}
+.th-32 {
+  font-size: 24px;
+}
+.th-34 {
+  font-size: 26px;
+}
+.th-36 {
+  font-size: 28px;
+}
+
+.th-48 {
+  font-size: 32px;
+}
+.th-58 {
+  font-size: 38px;
+}
+.th-72 {
+  font-size: 50px;
+}
+}
 /* font weight */
 .th-thin {
   font-weight: 100;
@@ -313,11 +347,11 @@ input:focus {
   color: #516378;
   background-image: none;
   background: #ffffff;
-  border: 1px solid #8a9bad;
+  border: solid 1px #8a9bad;
   border-radius: 3px 0px 0px 3px;
   margin-top: 10px;
   padding: 1px 4px;
-  line-height: 30px;
+  height: 35px;
   text-transform: uppercase;
 }
 
@@ -327,7 +361,87 @@ input:focus {
   font-size: 0.8em !important;
   font-weight: 600;
   background: #30373f;
-  border-radius: 3px;
+  border: none;
   height: 35px;
   margin-top: 10px;
+  border-radius: 0px 3px 3px 0px;
+  padding: 0px 14px
 }
+
+
+/*=====Radio Button=======*/
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+}
+[type="radio"]:checked + label,
+[type="radio"]:not(:checked) + label
+{
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 12px;
+    display: inline-block;
+    color: #666;
+}
+/* [type="radio"]:checked + label:before, */
+[type="radio"]:not(:checked) + label:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #000;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:before{
+      content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 12px;
+    height: 12px;
+    border: 1px solid #F2994A;
+    border-radius: 100%;
+    background: #fff;
+}
+[type="radio"]:checked + label:after,
+[type="radio"]:not(:checked) + label:after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #F2994A;
+  
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+[type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+}
+[type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+/*====Radio Button========*/
+@media only screen and (max-width: 767px) {
+  .th-mob-display{
+    display: block
+  }
+}
+@media only screen and (max-width: 767px) {
+  .th-mob-txt-center{
+    text-align: center;
+  }
+}
+
