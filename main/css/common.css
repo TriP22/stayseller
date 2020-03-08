@@ -103,6 +103,42 @@ body {
   font-size: 50px;
 }
 }
+
+@media only screen and (max-width: 992px) {
+.th-16 {
+  font-size: 15px;
+}
+.th-18 {
+  font-size: 16px;
+}
+.th-24{
+  font-size: 20px
+}
+.th-30 {
+  font-size: 24px;
+}
+.th-32 {
+  font-size: 26px;
+}
+.th-34 {
+  font-size: 28px;
+}
+.th-36 {
+  font-size: 30px;
+}
+
+.th-48 {
+  font-size: 34px;
+}
+.th-58 {
+  font-size: 40px;
+}
+.th-72 {
+  font-size: 50px;
+}
+} 
+
+/*font media query ends*/
 /* font weight */
 .th-thin {
   font-weight: 100;
@@ -444,4 +480,31 @@ input:focus {
     text-align: center;
   }
 }
+.top-confirm-book{
+background: #FFFFFF;
+border: 1px solid #EDEEF0;
+box-sizing: border-box;
+box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+border-radius: 3px;
+}
 
+a.morelink {
+  text-decoration:none;
+  outline: none;
+  font-weight: 700;
+ color:#30373F;
+}
+.morecontent span {
+  display: none;
+}
+a.morelink-orange{
+   color: #f2994a;
+   text-decoration:none;
+  outline: none;
+  font-weight: 700;
+}
+/*img-icon-details text*/
+.img-icon-details{
+  vertical-align: inherit;
+  width:14px;
+}
