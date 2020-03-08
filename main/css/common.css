@@ -45,6 +45,12 @@ body {
 .th-20 {
   font-size: 20px;
 }
+.th-26 {
+  font-size: 26px;
+}
+.th-28 {
+  font-size: 28px;
+}
 .th-24 {
   font-size: 24px;
 }
@@ -507,4 +513,19 @@ a.morelink-orange{
 .img-icon-details{
   vertical-align: inherit;
   width:14px;
+}
+@media screen and (min-width: 992px) {
+        .modal-lg {
+         max-width: 950px; /* New width for large modal */
+        }
+    }
+
+.close {
+    
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: 1 !important;
 }

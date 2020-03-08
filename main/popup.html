@@ -24,241 +24,238 @@
 <body>
 
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#popUpSelectHotel">
   Launch demo modal
 </button>
 
 <!-- Modal -->
-<div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+<div class="modal fade" id="popUpSelectHotel" tabindex="-1" role="dialog" aria-labelledby="popUpSelectHotelTitle" aria-hidden="true">
   <div class="modal-dialog modal-lg" >
     <div class="modal-content">
-      <div class="modal-header">
+      <div class="modal-header" style="border-bottom: none;">
+        <h5 class="modal-title th-36">Select Room</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
+          <span aria-hidden="true" >&times;</span>
         </button>
       </div>
       
         <div class="container modal-body py-2 px-30">
-    
-    <div class="py-4">
-      <div class="row th-card align-items-center">
-        <div class="col-lg-4 col-md-4 col-sm-4 pr-0 pl-0">
-          <div class="th-card-img" style="background-image: url('img/img.png');">
-            <div class="th-ribbon"><i class="las la-clock th-18 px-1"></i> Open for bookings from 1st Mar 2020</div>
-            <br><br>
-            <div class="th-ribbon mt-0">20% Off</div>
-          </div>
-        </div>
-        <div class="col-lg-8 col-md-8 col-sm-8">
-          <div class="th-card-body py-2 px-1">
-            <div class="row px-10">
-              <div class="th-14">
-                <img src="img/size.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">33 Sq Mt</span>
-                <img src="img/king.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">King Bed</span>
-                <img src="img/car.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">Up to 3 guests</span>
-                <img src="img/wifi2.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">Free for upto 4 devices.</span>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8 th-32 th-black th-bold"><span class="">Superior Room</span></div>
-              <div class="col-md-8 th-18 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle col
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-9 py-2">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="radio-item th-18">
-                      <input type="radio" id="test1" name="ritem"  value="ropt2">
-                      <label for="test1">Room only</label>
-                    </div>
-                  </div>
-                  <div class="col-lg-8">
-                    <div class="radio-item th-18 ">
-                      <input type="radio" id="test2" name="ritem" value="ropt2">
-                      <label for="test2">Room with breakfast</label>
-                    </div>
-                  </div>
-                </div>
-                <div class="row align-items-center px-10">
-                  <div class="   "><span class="th-black th-32 th-bold">₹ 200202.00 </span>
-                    <span class="th-grey th-18 th-strike px-1">₹ 200202.00</span>
-                    <span class="th-grey th-18 th-bold px-1">2Room 2 Night</span></div>
+          <div class="py-3">
+            <div class="row th-card align-items-center">
+              <div class="col-lg-4 col-md-4 col-sm-4 pr-0 pl-0">
+                <div class="th-card-img" style="background-image: url('img/img.png'); height: 36vh;">
+                  <div class="th-ribbon"><i class="las la-clock th-14 px-1"></i> Open for bookings from 1st Mar 2020</div>
+                  <br><br>
+                  <div class="th-ribbon mt-0">20% Off</div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div><button type="submit" class="th-btn-trans my-2" id="roomDetails1">Room Details</button></div>
-                <div><button type="submit" class="th-btn-solid my-2">View Details</button></div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-
-
-        <div class="row px-5 py-3" id="viewRoomDetails1" style="display: none;">
-          <div class="col-lg-6">
-            <div class="th-18 th-bold th-grey py-3">ROOM DETAILS</div>
-            <div class="th-18 th-grey pb-3">
-              Combining neutral colours with chic textural furnishings, these rooms featuring King / Twin beds celebrate
-              the heritage of the East offering views of the Business Bay skyline. These warm, contemporary and
-              well-appointed rooms are located from 6th to the 28th floor showcasing city views. Ideal for both business
-              and leisure travelers.
-            </div>
-            <div class="th-18 th-bold th-grey py-3 ">OTHER CONVENIENCES</div>
-            <div class="th-18 th-grey">
-              Premium Wi-Fi at nominal charge<br>
-              24-hour on-call doctor & nurse<br>
-              Tea-coffee maker<br>
-              Plush bathrobes & slippers<br>
-              Yoga kit<br>
-              42-inch flat-screen LED TV<br>
-              Full-length mirror, hair dryer & scale<br>
-              Complimentary basic Wi-Fi<br>
-              Minibar on request<br>
-              Posturepedic mattresses and bed linen<br>
-              Choice between smoking and non-smoking rooms<br>
-              Complimentary shoe-shine<br>
-              24 hour laundry service<br>
-              Iron & Ironing Board on request<br>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="th-18 th-bold th-grey py-3">Size</div>
-            <div class="th-18 th-grey pb-3">45 Sq Mt</div>
-            <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
-            <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
-            <div class="th-18 th-bold th-grey py-3">SUITE FEATURES</div>
-            <div class="th-18 th-grey pb-3">Electronic safe</div>
-            <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
-            <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
-            <div class="th-18 th-bold th-grey py-3">HOTEL FACILITIES</div>
-            <div class="th-18 th-grey pb-3">Softer beds & hard boards on request</div>
-            <div class="th-18 th-bold th-grey py-3">BED & BATH</div>
-            <div class="th-18 th-grey pb-3">
-              Pillow menu<br>
-              Suit, skirt & padded hangers<br>
-              Bath menu & bath salts<br>
-              Infant cribs for infants aged 0-2 years available on request on complimentary basis<br>
-              Molton Brown bath amenities<br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
-    <div class="py-4">
-      <div class="row th-card align-items-center">
-        <div class="col-lg-4 pr-0 pl-0">
-          <div class="th-card-img" style="background-image: url('img/img.png');">
-            <div class="th-ribbon"><i class="las la-clock th-18 px-1"></i> Open for bookings from 1st Mar 2020</div>
-            <br><br>
-            <div class="th-ribbon mt-0">20% Off</div>
-          </div>
-        </div>
-        <div class="col-lg-8">
-          <div class="th-card-body py-2 px-1">
-            <div class="row px-10">
-              <div class="th-14">
-                <img src="img/size.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">33 Sq Mt</span>
-                <img src="img/king.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">King Bed</span>
-                <img src="img/car.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">Up to 3 guests</span>
-                <img src="img/wifi2.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">Free for upto 4 devices.</span>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-8 th-32 th-black th-bold"><span class="">Superior Room</span></div>
-              <div class="col-md-8 th-18 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle co
-              </div>
-            </div>
-            <div class="row align-items-center">
-              <div class="col-md-9 py-2">
-                <div class="row">
-                  <div class="col-lg-4">
-                    <div class="radio-item th-18">
-                      <input type="radio" id="test3" name="ritem" value="ropt2">
-                      <label for="test3">Room only</label>
+              <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="th-card-body py-2 px-1">
+                  <div class="row px-10">
+                    <div class="th-12">
+                      <img src="img/size.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">33 Sq Mt</span>
+                      <img src="img/king.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">King Bed</span>
+                      <img src="img/car.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">Up to 3 guests</span>
+                      <img src="img/wifi2.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">Free for upto 4 devices.</span>
                     </div>
                   </div>
-                  <div class="col-lg-8">
-                    <div class="radio-item th-18 ">
-                      <input type="radio" id="test4" name="ritem" value="ropt2">
-                      <label for="test4">Room with breakfast</label>
+                  <div class="row">
+                    <div class="col-md-8 th-26 th-black th-bold"><span class="">Superior Room</span></div>
+                    <div class="col-md-8 th-14 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle col
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col-md-9 py-2">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="radio-item th-16">
+                            <input type="radio" id="test1" name="ritem"  value="ropt2">
+                            <label for="test1">Room only</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="radio-item th-16 ">
+                            <input type="radio" id="test2" name="ritem" value="ropt2">
+                            <label for="test2">Room with breakfast</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center px-10">
+                        <div class="   "><span class="th-black th-28 th-bold">₹ 200202.00 </span>
+                          <span class="th-grey th-16 th-strike px-1">₹ 200202.00</span>
+                          <span class="th-grey th-16 th-bold px-1">2Room 2 Night</span></div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div><button type="submit" class="th-btn-trans my-2" id="roomDetails1" style="font-size: 12px;padding: 10px 14px;">Room Details</button></div>
+                      <div><button type="submit" class="th-btn-solid my-2" style="font-size: 12px;padding: 10px 14px;">View Details</button></div>
                     </div>
                   </div>
                 </div>
-                <div class="row align-items-center px-10">
-                  <div class="   "><span class="th-black th-32 th-bold">₹ 200202.00 </span>
-                    <span class="th-grey th-18 th-strike px-1">₹ 200202.00</span>
-                    <span class="th-grey th-18 th-bold px-1">2Room 2 Night</span></div>
+              </div>
+
+
+
+              <div class="row px-5 py-3" id="viewRoomDetails1" style="display: none;">
+                <div class="col-lg-6">
+                  <div class="th-18 th-bold th-grey py-3">ROOM DETAILS</div>
+                  <div class="th-18 th-grey pb-3">
+                    Combining neutral colours with chic textural furnishings, these rooms featuring King / Twin beds celebrate
+                    the heritage of the East offering views of the Business Bay skyline. These warm, contemporary and
+                    well-appointed rooms are located from 6th to the 28th floor showcasing city views. Ideal for both business
+                    and leisure travelers.
+                  </div>
+                  <div class="th-18 th-bold th-grey py-3 ">OTHER CONVENIENCES</div>
+                  <div class="th-18 th-grey">
+                    Premium Wi-Fi at nominal charge<br>
+                    24-hour on-call doctor & nurse<br>
+                    Tea-coffee maker<br>
+                    Plush bathrobes & slippers<br>
+                    Yoga kit<br>
+                    42-inch flat-screen LED TV<br>
+                    Full-length mirror, hair dryer & scale<br>
+                    Complimentary basic Wi-Fi<br>
+                    Minibar on request<br>
+                    Posturepedic mattresses and bed linen<br>
+                    Choice between smoking and non-smoking rooms<br>
+                    Complimentary shoe-shine<br>
+                    24 hour laundry service<br>
+                    Iron & Ironing Board on request<br>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="th-18 th-bold th-grey py-3">Size</div>
+                  <div class="th-18 th-grey pb-3">45 Sq Mt</div>
+                  <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
+                  <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
+                  <div class="th-18 th-bold th-grey py-3">SUITE FEATURES</div>
+                  <div class="th-18 th-grey pb-3">Electronic safe</div>
+                  <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
+                  <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
+                  <div class="th-18 th-bold th-grey py-3">HOTEL FACILITIES</div>
+                  <div class="th-18 th-grey pb-3">Softer beds & hard boards on request</div>
+                  <div class="th-18 th-bold th-grey py-3">BED & BATH</div>
+                  <div class="th-18 th-grey pb-3">
+                    Pillow menu<br>
+                    Suit, skirt & padded hangers<br>
+                    Bath menu & bath salts<br>
+                    Infant cribs for infants aged 0-2 years available on request on complimentary basis<br>
+                    Molton Brown bath amenities<br>
+                  </div>
                 </div>
               </div>
-              <div class="col-md-3">
-                <div><button type="submit" class="th-btn-trans my-2" id="roomDetails2">Room Details</button></div>
-                <div><button type="submit" class="th-btn-solid my-2">View Details</button></div>
+            </div>
+          </div>
+
+
+    <div class="py-3">
+            <div class="row th-card align-items-center">
+              <div class="col-lg-4 col-md-4 col-sm-4 pr-0 pl-0">
+                <div class="th-card-img" style="background-image: url('img/img.png'); height: 36vh;">
+                  <div class="th-ribbon"><i class="las la-clock th-14 px-1"></i> Open for bookings from 1st Mar 2020</div>
+                  <br><br>
+                  <div class="th-ribbon mt-0">20% Off</div>
+                </div>
+              </div>
+              <div class="col-lg-8 col-md-8 col-sm-8">
+                <div class="th-card-body py-2 px-1">
+                  <div class="row px-10">
+                    <div class="th-12">
+                      <img src="img/size.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">33 Sq Mt</span>
+                      <img src="img/king.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">King Bed</span>
+                      <img src="img/car.png" class="img-icon-details ml-3" style="width: 12px;" ><span class="px-2">Up to 3 guests</span>
+                      <img src="img/wifi2.png" class="img-icon-details ml-2" style="width: 12px;" ><span class="px-2">Free for upto 4 devices.</span>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-8 th-26 th-black th-bold"><span class="">Superior Room</span></div>
+                    <div class="col-md-8 th-14 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle col
+                    </div>
+                  </div>
+                  <div class="row align-items-center">
+                    <div class="col-md-9 py-2">
+                      <div class="row">
+                        <div class="col-lg-4">
+                          <div class="radio-item th-16">
+                            <input type="radio" id="test3" name="ritem1" value="ropt2">
+                            <label for="test3">Room only</label>
+                          </div>
+                        </div>
+                        <div class="col-lg-8">
+                          <div class="radio-item th-16 ">
+                            <input type="radio" id="test4" name="ritem1" value="ropt2">
+                            <label for="test4">Room with breakfast</label>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row align-items-center px-10">
+                        <div class="   "><span class="th-black th-28 th-bold">₹ 200202.00 </span>
+                          <span class="th-grey th-16 th-strike px-1">₹ 200202.00</span>
+                          <span class="th-grey th-16 th-bold px-1">2Room 2 Night</span></div>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div><button type="submit" class="th-btn-trans my-2" id="roomDetails2" style="font-size: 12px;padding: 10px 14px;">Room Details</button></div>
+                      <div><button type="submit" class="th-btn-solid my-2" style="font-size: 12px;padding: 10px 14px;">View Details</button></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+
+              <div class="row px-5 py-3" id="viewRoomDetails2" style="display: none;">
+                <div class="col-lg-6">
+                  <div class="th-18 th-bold th-grey py-3">ROOM DETAILS</div>
+                  <div class="th-18 th-grey pb-3">
+                    Combining neutral colours with chic textural furnishings, these rooms featuring King / Twin beds celebrate
+                    the heritage of the East offering views of the Business Bay skyline. These warm, contemporary and
+                    well-appointed rooms are located from 6th to the 28th floor showcasing city views. Ideal for both business
+                    and leisure travelers.
+                  </div>
+                  <div class="th-18 th-bold th-grey py-3 ">OTHER CONVENIENCES</div>
+                  <div class="th-18 th-grey">
+                    Premium Wi-Fi at nominal charge<br>
+                    24-hour on-call doctor & nurse<br>
+                    Tea-coffee maker<br>
+                    Plush bathrobes & slippers<br>
+                    Yoga kit<br>
+                    42-inch flat-screen LED TV<br>
+                    Full-length mirror, hair dryer & scale<br>
+                    Complimentary basic Wi-Fi<br>
+                    Minibar on request<br>
+                    Posturepedic mattresses and bed linen<br>
+                    Choice between smoking and non-smoking rooms<br>
+                    Complimentary shoe-shine<br>
+                    24 hour laundry service<br>
+                    Iron & Ironing Board on request<br>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="th-18 th-bold th-grey py-3">Size</div>
+                  <div class="th-18 th-grey pb-3">45 Sq Mt</div>
+                  <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
+                  <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
+                  <div class="th-18 th-bold th-grey py-3">SUITE FEATURES</div>
+                  <div class="th-18 th-grey pb-3">Electronic safe</div>
+                  <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
+                  <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
+                  <div class="th-18 th-bold th-grey py-3">HOTEL FACILITIES</div>
+                  <div class="th-18 th-grey pb-3">Softer beds & hard boards on request</div>
+                  <div class="th-18 th-bold th-grey py-3">BED & BATH</div>
+                  <div class="th-18 th-grey pb-3">
+                    Pillow menu<br>
+                    Suit, skirt & padded hangers<br>
+                    Bath menu & bath salts<br>
+                    Infant cribs for infants aged 0-2 years available on request on complimentary basis<br>
+                    Molton Brown bath amenities<br>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-        </div>
-
-
-        <div class="row px-5 py-3" id="viewRoomDetails2" style="display: none;">
-          <div class="col-lg-6">
-            <div class="th-18 th-bold th-grey py-3">ROOM DETAILS</div>
-            <div class="th-18 th-grey pb-3">
-              Combining neutral colours with chic textural furnishings, these rooms featuring King / Twin beds celebrate
-              the heritage of the East offering views of the Business Bay skyline. These warm, contemporary and
-              well-appointed rooms are located from 6th to the 28th floor showcasing city views. Ideal for both business
-              and leisure travelers.
-            </div>
-            <div class="th-18 th-bold th-grey py-3 ">OTHER CONVENIENCES</div>
-            <div class="th-18 th-grey">
-              Premium Wi-Fi at nominal charge<br>
-              24-hour on-call doctor & nurse<br>
-              Tea-coffee maker<br>
-              Plush bathrobes & slippers<br>
-              Yoga kit<br>
-              42-inch flat-screen LED TV<br>
-              Full-length mirror, hair dryer & scale<br>
-              Complimentary basic Wi-Fi<br>
-              Minibar on request<br>
-              Posturepedic mattresses and bed linen<br>
-              Choice between smoking and non-smoking rooms<br>
-              Complimentary shoe-shine<br>
-              24 hour laundry service<br>
-              Iron & Ironing Board on request<br>
-            </div>
-          </div>
-          <div class="col-lg-6">
-            <div class="th-18 th-bold th-grey py-3">Size</div>
-            <div class="th-18 th-grey pb-3">45 Sq Mt</div>
-            <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
-            <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
-            <div class="th-18 th-bold th-grey py-3">SUITE FEATURES</div>
-            <div class="th-18 th-grey pb-3">Electronic safe</div>
-            <div class="th-18 th-bold th-grey py-3">SIGNATURE FEATURE</div>
-            <div class="th-18 th-grey pb-3">Artwork & artefacts with an Indian touch</div>
-            <div class="th-18 th-bold th-grey py-3">HOTEL FACILITIES</div>
-            <div class="th-18 th-grey pb-3">Softer beds & hard boards on request</div>
-            <div class="th-18 th-bold th-grey py-3">BED & BATH</div>
-            <div class="th-18 th-grey pb-3">
-              Pillow menu<br>
-              Suit, skirt & padded hangers<br>
-              Bath menu & bath salts<br>
-              Infant cribs for infants aged 0-2 years available on request on complimentary basis<br>
-              Molton Brown bath amenities<br>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
   </div>
       
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
-      </div>
     </div>
   </div>
 </div>
@@ -278,15 +275,20 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 
     <!-- for date picker -->
-    <script src="js/bootstrap-datepicker.js"></script>
-    <script type="text/javascript">
-        $(".search-date").datepicker({
-            format: "dd MM",
-            todayHighlight: true,
-            autoclose: true,
-            maxViewMode: 0,
-            startDate: "now"
+        <script>
+      $(document).ready(function () {
+        $("#roomDetails1").click(function () {
+          $("#viewRoomDetails1").toggle(500);
         });
+      });
+    </script>
+    <!-- toogle button -->
+    <script>
+      $(document).ready(function () {
+        $("#roomDetails2").click(function () {
+          $("#viewRoomDetails2").toggle(500);
+        });
+      });
     </script>
 </body>
 </html>
