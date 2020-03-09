@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/common.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <!-- Icons -->
+  <link rel="stylesheet"
+    href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <title>Hello, world!</title>
+</head>
+
+<body>
+
+<h2>Modal Example</h2>
+
+<!-- Trigger/Open The Modal -->
+<!-- <button id="showAmenities">Open Modal</button> -->
+<!-- <div class="py-3" ><button class="th-medium th-18 th-orange"  id="showAmenities">View all</button></div> -->
+<!-- <div id="showAmenities">dsds</div> -->
+<div class="py-3 th-medium th-18 th-orange " id="showimage" style="cursor: pointer;">View all</div>
+<!-- The Modal -->
+<div id="myModalImage" class="th-popup">
+
+  <!-- Modal content -->
+  <div class="popup-content">
+    <div class="col-lg-12">
+    <div class="row d-flex justify-content-between align-items-center">
+      
+        <div class="th-24 th-black th-medium">View Photo (5)</div>
+        <div class="th-close th-black">&times;</div>
+      </div>
+    </div>
+   
+    <div class="row th-20 th-medium th-black" style="overflow-y: scroll; height: 80vh">
+      <!-- <section class="bgimage" style="background-image: url('img/header.png');"></section> -->
+      <div class="col-xs-12 py-2">
+        <img src="img/header.png" class="img-fluid" >
+      </div>
+      <div class="col-xs-12 py-2">
+        <img src="img/img.png" class="img-fluid">
+      </div>
+      <div class="col-xs-12 py-2">
+        <img src="img/header.png" class="img-fluid">
+      </div>
+      <div class="col-xs-12 py-2">
+        <img src="img/img.png" class="img-fluid">
+      </div>
+      <div class="col-xs-12 py-2">
+        <img src="img/header.png" class="img-fluid">
+      </div>
+      <div class="col-xs-12 py-2">
+        <img src="img/img.png" class="img-fluid">
+      </div>
+      
+    </div>
+  </div>
+
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById("myModalImage");
+
+// Get the button that opens the modal
+var btn = document.getElementById("showimage");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("th-close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+<!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- for onClick function -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <!-- for date picker -->
+        <script>
+      $(document).ready(function () {
+        $("#roomDetails1").click(function () {
+          $("#viewRoomDetails1").toggle(500);
+        });
+      });
+    </script>
+    <!-- toogle button -->
+    <script>
+      $(document).ready(function () {
+        $("#roomDetails2").click(function () {
+          $("#viewRoomDetails2").toggle(500);
+        });
+      });
+    </script>
+</body>
+</html>
