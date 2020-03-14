@@ -95,52 +95,60 @@
             </div>
             <div class="col-lg-5 offset-lg-2 p-4" style="border: 1px solid #EDEEF0;box-sizing: border-box;
             border-radius: 0px 3px 3px 0px;">
-                <div class="th-lt-black th-18 th-bold pb-3">Summary Charges</div>
-                <div class="row d-flex justify-content-between px-3 pb-2">
-                    <div>
+                <div class="th-lt-black th-20 th-bold pb-3">Summary Charges</div>
+                <div class="row d-flex justify-content-between px-3 pb-2 ">
+                    <div class=" d-sm-block d-none">
                         <div class="th-lt-black th-18">Price (2 Rooms x 1 Nights)</div>
                     </div>
-                    <div>
+                    <div class=" d-sm-block d-none">
                         <div class="th-lt-black th-18 th-bold">+ ₹ 1000.00</div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-between px-3 pb-2">
-                    <div>
-                        <div class="th-lt-black th-18">Taxes and fees</div>
+                <!-- Mobile only -->
+                    <div class="row justify-content-between px-3 pb-2 d-sm-none">
+                        <div class="th-lt-black th-18">2 Rooms x 1 Nights</div>
+                        <div class="th-lt-black th-18 th-bold">+ ₹ 122000.00</div>
                     </div>
-                    <div>
-                        <div class="th-lt-black th-18 th-bold">+ ₹ 243.00</div>
-                    </div>
+                 <!-- Mobile only end -->
+                <div class="row d-flex justify-content-between px-3 pb-2 ">
+                    <div class="th-lt-black th-18">Taxes and fees</div>
+                    <div class="th-lt-black th-18 th-bold">+ ₹ 243.00</div>
                 </div>
-                <div class="row d-flex justify-content-between align-items-center px-3 pb-2">
-                    <div>
-                        <div class="th-lt-black th-18">Taxes and fees</div>
-                    </div>
-                    <div>
+                
+                <div class="row d-flex justify-content-between align-items-center px-3 pb-2 ">
+                    <div class="th-lt-black th-18  d-sm-block d-none">Taxes and fees</div>
+                    <div class=" d-sm-block d-none">
                         <!-- <div class="th-lt-black th-18 th-bold">+ ₹ 243.00</div> -->
                         <div class="row d-flex px-3">
-                            <div> <input class="th-promo-form " type="text"></div>
+                            <div style="width: 10vw;"> <input class="th-promo-form " type="text"></div>
 
-                            <div> <button class="th-promo-btn btn" type="submit">Remove</button></div>
+                            <div> <button class="th-promo-btn" type="submit">Remove</button></div>
                         </div>
                     </div>
                 </div>
-                <div class="row d-flex justify-content-between px-3 pb-2">
-                    <div>
-                        <div class="th-lt-black th-18"></div>
+                <!-- Mobile only -->
+                    <div class=" pb-2 d-sm-none">
+                            <div class="row justify-content-end d-flex px-3">
+                                <div class="" style="width: 30vw;"> <input class="th-promo-form " type="text"></div>
+                                <div class=""> <button class="th-promo-btn" type="submit">Remove</button></div>
+                            </div>
                     </div>
-                    <div>
-                        <div class="th-lt-black th-18 th-bold">+ ₹ 243.00</div>
-                    </div>
+                 <!-- Mobile only end -->
+                <div class="row d-flex justify-content-between px-3 pb-2 ">
+                    <div class="th-lt-black th-18"></div>
+                    <div class="th-lt-black th-18 th-bold">- ₹ 243.00</div>
                 </div>
-                <div class="row d-flex justify-content-between px-3 pb-2">
-                    <div>
-                        <div class="th-lt-black th-18 th-bold">Total( 2 Rooms x 1 Night )</div>
-                    </div>
-                    <div>
-                        <div class="th-lt-black th-18 th-bold">₹ 2323232.00</div>
-                    </div>
+                
+                <div class="row d-flex justify-content-between px-3 pb-2 ">
+                    <div class="th-lt-black th-18 th-bold d-sm-block d-none">Total( 2 Rooms x 1 Night )</div>
+                    <div class="th-lt-black th-18 th-bold d-sm-block d-none">₹ 2323232.00</div>
                 </div>
+                <!-- Mobile only -->
+                <div class="row d-flex justify-content-between px-3 pb-2 d-sm-none">
+                    <div class="th-lt-black th-18 th-bold">Total Price</div>
+                    <div class="th-lt-black th-18 th-bold">₹ 2323232.00</div>
+                </div>
+                 <!-- Mobile only end -->
             </div>
         </div>
     </div>
