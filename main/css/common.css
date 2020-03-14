@@ -1,6 +1,7 @@
 /* general */
 body {
   background: rgb(255, 255, 255);
+  font-family: 'Muli', sans-serif;
 }
 .th-top-offset {
   height: 80px;
@@ -167,6 +168,9 @@ body {
 .th-bold {
   font-weight: 700;
 }
+.th-bolder {
+  font-weight: 800;
+}
 /* font color */
 .th-black {
   color: #1a1d22;
@@ -210,7 +214,7 @@ body {
   border-radius: 3px;
   border: none;
   padding: 10px 24px;
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
 }
 .th-btn-trans {
@@ -221,7 +225,7 @@ body {
   border-radius: 3px;
   border: 1px solid #1a1d22;
   padding: 10px 24px;
-  font-weight: 600;
+  font-weight: 500;
   width: 100%;
 }
 .th-btn-white {
@@ -232,7 +236,7 @@ body {
   border-radius: 3px;
   border: 1px solid #ffffff;
   padding: 10px 24px;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 /* BG Color */
@@ -269,9 +273,19 @@ body {
   padding-left: 30px;
   padding-right: 30px;
 }
+.px-15 {
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .px-10 {
   padding-left: 10px;
   padding-right: 10px;
+}
+@media only screen and (max-width: 767px) {
+.mob-px-30 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
 }
 
 /*strike through*/
@@ -281,7 +295,7 @@ body {
 /*Radio button*/
 /* CARDS */
 .th-ribbon {
-  margin-top: 10px;
+  margin-top: 20px;
   margin-left: 16px;
   padding: 12px 6px;
   height: 20px;
@@ -344,7 +358,22 @@ body {
   background-size: cover;
   /*background-attachment: fixed;*/
 }
-
+.th-scroll-img {
+  height: 200px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.th-mob-scroll-img{
+  height: 200px;
+  width: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 8px;
+  border-radius: 3px;
+}
 .img-border-radius {
   border-radius: 3px 3px 0px 0px;
 }

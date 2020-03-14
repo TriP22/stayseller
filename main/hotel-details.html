@@ -11,8 +11,13 @@
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- Custom CSS -->
   <link rel="stylesheet" href="css/common.css">
+  <link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<!-- // Add the new slick-theme.css if you want the default styling -->
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
   <!-- Icons -->
   <link rel="stylesheet"
     href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
@@ -38,7 +43,7 @@
     <div class="container-fluid">
       <div class="row text-center " style="display: flex;justify-content: center;align-items: center;height: 70vh;">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <div class="th-48 th-white th-bold">Hotel Saraswati Palace</div>
+          <div class="th-58 th-white th-bold" style="font-family: 'Playfair Display', serif;">Hotel Saraswati Palace</div>
         </div>
       </div>
     </div>
@@ -48,9 +53,9 @@
     <div class="container">
       <div class="row pt-4 pb-2">
         <div class="col-lg-2 ">
-          <div class="th-14 th-medium th-lt-grey text-uppercase">Traveling to</div>
-          <!-- <div class="th-16 th-medium th-black">Manali</div> -->
-          <select class=" th-16 th-medium th-black form-group custom-select p-0">
+          <div class="th-14 th-bold th-lt-grey text-uppercase">Traveling to</div>
+          <!-- <div class="th-16 th-bold th-black">Manali</div> -->
+          <select class=" th-16 th-bold th-black form-group custom-select p-0">
             <option selected>Choose...</option>
             <option value="1">One</option>
             <option value="2">Two</option>
@@ -59,16 +64,16 @@
 
         </div>
         <div class="col-lg-4 ">
-          <div class="th-14 th-medium th-lt-grey text-uppercase">Check - in Date & Check - OUT Date</div>
-          <!-- <div class="th-16 th-medium th-black">07 Mar 2020 - 08 Mar 2020</div> -->
-          <input type="text" class="custom-date search-date p-0 th-16 th-medium th-black" placeholder="Check In">
-          <span><input type="text" class="custom-date search-date p-0 th-16 th-medium th-black"
+          <div class="th-14 th-bold th-lt-grey text-uppercase">Check - in Date & Check - OUT Date</div>
+          <!-- <div class="th-16 th-bold th-black">07 Mar 2020 - 08 Mar 2020</div> -->
+          <input type="text" class="custom-date search-date p-0 th-16 th-bold th-black" placeholder="Check In">
+          <span><input type="text" class="custom-date search-date p-0 th-16 th-bold th-black"
               placeholder="Check out"></span>
         </div>
         <div class="col-lg-3 ">
-          <div class="th-14 th-medium th-lt-grey text-uppercase">Room & GUests</div>
-          <!-- <div class="th-16 th-medium th-black">Room 1 - 2 Guests - 0 Child</div> -->
-          <select class=" th-16 th-medium th-black form-group custom-select p-0">
+          <div class="th-14 th-bold th-lt-grey text-uppercase">Room & GUests</div>
+          <!-- <div class="th-16 th-bold th-black">Room 1 - 2 Guests - 0 Child</div> -->
+          <select class=" th-16 th-bold th-black form-group custom-select p-0">
             <option selected>Room 1 - 2 Guests - 0 Child</option>
             <option value="1">Room 1 - 2 Guests - 1 Child</option>
             <option value="2">Room 1 - 3 Guests - 0 Child</option>
@@ -76,27 +81,27 @@
           </select>
         </div>
         <div class="col-lg-2 offset-lg-1 ">
-          <!-- <div class="th-14 th-medium th-lt-grey text-uppercase">Traveling to</div> -->
+          <!-- <div class="th-14 th-bold th-lt-grey text-uppercase">Traveling to</div> -->
           <div><button type="submit" class="th-btn-solid my-2">Select Rooms</button></div>
         </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row th-card">
+  <div class="container  th-card">
+    <div class="row ">
       <div class="col-lg-6 p-5" id="heightTest">
-        <div class="th-30 th-black th-bold py-2">Taj Jumeirah Lakes Towers</div>
-        <div class="th-14 th-orange th-medium py-1"><i class="fa fa-phone th-18 pr-2"></i>Apollo Bunder , Mumbai , 400 001
+        <div class="th-30 th-black th-bold py-2"">Taj Jumeirah Lakes Towers</div>
+        <div class="th-14 th-orange th-bold py-1"><i class="fa fa-phone th-18 pr-2"></i><u>Apollo Bunder , Mumbai , 400 001</u>
         </div>
-        <div class="th-14 th-grey th-medium py-1"><i class="fa fa-phone th-18 pr-2"></i>+91-9472394068</div>
-        <div class="th-14 th-orange th-medium py-1"><i class="fa fa-envelope th-18 pr-2"></i>Vivek.anand2805@gmail.com</div>
+        <div class="th-14 th-grey th-bold py-1"><i class="fa fa-phone th-18 pr-2"></i>+91-9472394068</div>
+        <div class="th-14 th-orange th-bold py-1"><i class="fa fa-envelope th-18 pr-2"></i><u>Vivek.anand2805@gmail.com</u></div>
         <div class="th-18 th-grey py-1 comment more-orange">
           Blending subtle colours and modern design elements, the Superior Rooms feature Kin...
           
         </div>
         
-        <div class="th-24 th-medium th-black py-3">Hotel Highlights</div>
+        <div class="th-24 th-bold th-black py-3">Hotel Highlights</div>
         <div class="py-1"><img src="img/size.png" class="img-icon-details" ><span class="th-18 th-grey pl-2">Avant-garde design</span>
         </div>
         <div class="py-1"><img src="img/car.png" class="img-icon-details" ><span class="th-18 th-grey pl-2">Perfect countryside
@@ -105,14 +110,14 @@
             mountains</span></div>
         <div class="py-1"><img src="img/wifi.png" class="img-icon-details" ><span class="th-18 th-grey pl-2">Great for weekend getaways &
             weddings</span></div>
-        <div class="th-24 th-medium th-black py-3">Hotel Highlights</div>
-        <div class="d-sm-flex justify-content-between ">
+        <div class="th-24 th-bold th-black py-3">Hotel Highlights</div>
+        <div class="d-sm-flex justify-content-between col-lg-10 px-0">
           <div><img src="img/ac.png" class="img-icon-details" ><span class="pl-2">AC</span></div>
-          <div><img src="img/ac.png" class="img-icon-details" ><span class="pl-2">Room Service</span></div>
-          <div><img src="img/ac.png" class="img-icon-details" ><span class="pl-2">Swimming Pool</span></div>
+          <div><img src="img/food.png" class="img-icon-details" ><span class="pl-2">Room Service</span></div>
+          <div><img src="img/swim.png" class="img-icon-details" ><span class="pl-2">Swimming Pool</span></div>
         </div>
-        <div class="py-3 th-medium th-18 th-orange " id="showAmenities" style="cursor: pointer;">View all</div>
-        <div class="th-24 th-medium th-black py-2">Hotel Highlights</div>
+        <div class="py-3 th-bold th-18 th-orange " id="showAmenities" style="cursor: pointer;">View all</div>
+        <div class="th-24 th-bold th-black py-2">Hotel Highlights</div>
         <div class="th-18 th-grey">Check-in from 2:00 PM<br>
           Check-out till 12:00 PM<br>
           Early check-in and late check-out on request<br>
@@ -120,78 +125,92 @@
           Pets are not allowed
         </div>
       </div>
-      <div class="col-lg-6 px-5 pt-5" id="bg1">
+      <div class="col-lg-6 px-5 pt-5  d-sm-block d-none" id="bg1">
         <div class="row">
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <!-- <img src="img/img.png" class="img-fluid img-border-radius"> -->
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
-          </div>
-          <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
           <div class="col-md-6 py-2">
-            <img src="img/img.png" class="img-fluid img-border-radius">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
+          </div>
+          <div class="col-md-6 py-2">
+            <div class="th-scroll-img img-border-radius"   style="background-image: url('img/img3.png');"></div>
           </div>
         </div>
       </div>
     </div>
+
+    <!-- Mobile scroll bar image -->
+      <div class="mob-scroll-bar d-sm-none container ">
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
+        <div>your content</div>
+        <div>your content</div>
+      </div>
+
+<!-- Mobile scroll bar image end-->
   </div>
 
-<div class="container">
+      
+<div class="container mob-px-30">
     <div class="row">
-      <div class="col-md-12">
+      <div class="col-md-12 pr-0 pl-0">
         <div class="th-48 th-bold th-black pt-5 ">Select Room</div>
       </div>
     </div>
@@ -199,15 +218,15 @@
 
 
 
-  <div class="container py-2 px-30">
+  <div class="container py-2 mob-px-30">
     
     <div class="py-4">
       <div class="row th-card align-items-center">
         <div class="col-lg-4 pr-0 pl-0">
-          <div class="th-card-img" style="background-image: url('img/img.png');">
+          <div class="th-card-img" style="background-image: url('img/img3.png');">
             <div class="th-ribbon"><i class="las la-clock th-18 px-1"></i> Open for bookings from 1st Mar 2020</div>
             <br><br>
-            <div class="th-ribbon mt-0">20% Off</div>
+            <div class="th-ribbon mt-1">20% Off</div>
           </div>
         </div>
         <div class="col-lg-8">
@@ -222,7 +241,7 @@
             </div>
             <div class="row">
               <div class="col-md-8 th-32 th-black th-bold"><span class="">Superior Room</span></div>
-              <div class="col-md-8 th-18 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle col
+              <div class="col-md-8 th-16 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle col
               </div>
             </div>
             <div class="row align-items-center">
@@ -312,10 +331,10 @@
     <div class="py-4">
       <div class="row th-card align-items-center">
         <div class="col-lg-4 pr-0 pl-0">
-          <div class="th-card-img" style="background-image: url('img/img.png');">
+          <div class="th-card-img" style="background-image: url('img/img3.png');">
             <div class="th-ribbon"><i class="las la-clock th-18 px-1"></i> Open for bookings from 1st Mar 2020</div>
             <br><br>
-            <div class="th-ribbon mt-0">20% Off</div>
+            <div class="th-ribbon mt-1">20% Off</div>
           </div>
         </div>
         <div class="col-lg-8">
@@ -330,7 +349,7 @@
             </div>
             <div class="row">
               <div class="col-md-8 th-32 th-black th-bold"><span class="">Superior Room</span></div>
-              <div class="col-md-8 th-18 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle co
+              <div class="col-md-8 th-16 th-grey pt-1 comment more">Blending subtle colours and modern design elements, the Superior Rooms feature Blending subtle co
               </div>
             </div>
             <div class="row align-items-center">
@@ -425,9 +444,9 @@
           <div class="th-18 th-grey pt-2">©2019 The Indian Hotels Company Limited. All Rights Reserved.</div>
         </div>
         <div class="col-lg-3 offset-lg-5">
-          <div class="th-black th-medium th-32">Contact Us</div>
-          <div><i class="fa fa-phone  pr-2"></i><span class="th-medium th-14">+91-9472394068</span></div>
-          <div><i class="fa fa-envelope th-14 pr-2"></i><span class="th-medium th-14">Vivek.anand2805@gmail.com</span></div>
+          <div class="th-black th-bold th-32 pb-2">Contact Us</div>
+          <div><i class="fa fa-phone  pr-2"></i><span class="th-bold th-14">+91-9472394068</span></div>
+          <div><i class="fa fa-envelope th-14 pr-2"></i><span class="th-bold th-14">Vivek.anand2805@gmail.com</span></div>
         </div>
       </div>
     </div>
@@ -437,9 +456,9 @@
     <div class="container">
       <div class="row ">
         <div class="col-sm-12  pb-4">
-          <div class="th-black th-medium th-32">Contact Us</div>
-          <div><i class="fa fa-phone  pr-2"></i><span class="th-medium th-14">+91-9472394068</span></div>
-          <div><i class="fa fa-envelope th-14 pr-2"></i><span class="th-medium th-14">Vivek.anand2805@gmail.com</span></div>
+          <div class="th-black th-bold th-32 pb-2">Contact Us</div>
+          <div><i class="fa fa-phone  pr-2"></i><span class="th-bold th-14">+91-9472394068</span></div>
+          <div><i class="fa fa-envelope th-14 pr-2"></i><span class="th-bold th-14">Vivek.anand2805@gmail.com</span></div>
         </div>
         <div class="col-sm-12  ">
           <img src="img/logo.png" width="auto%" height="45" class="d-inline-block align-top" alt="">
@@ -460,12 +479,12 @@
     <div class="col-lg-12">
     <div class="row d-flex justify-content-between align-items-center">
       
-        <div class="th-26 th-black th-medium">Amenities</div>
+        <div class="th-26 th-black th-bold">Amenities</div>
         <div class="th-close th-black">&times;</div>
       </div>
     </div>
    
-    <div class="row th-18 th-medium th-black" style="overflow-y: scroll; height: 80vh">
+    <div class="row th-18 th-bold th-black" style="overflow-y: scroll; height: 80vh">
           
           <div class="col-lg-3 col-xs-12"><img src="img/ac2.png" class="img-icon-details" ><span class="pl-3">AC</span></div>
           <div class="col-lg-3 col-xs-12"><img src="img/food.png" class="img-icon-details" ><span class="pl-3">Room Service</span></div>
@@ -600,7 +619,7 @@
     <script>
     $(document).ready(function () {
       var height = $("#heightTest").outerHeight()
-      $("#bg1").css({  "height": height-480 , "overflow": "scroll" });
+      $("#bg1").css({  "height": height-900 , "overflow": "scroll" });
     });
   </script>
 
@@ -704,7 +723,9 @@ window.onclick = function(event) {
   }
 }
 </script>
-
+ <!-- Custom Js -->
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </body>
 
 </html>
