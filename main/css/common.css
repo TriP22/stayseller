@@ -371,9 +371,10 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  margin: 8px;
+  margin-right: 10px;
   border-radius: 3px;
 }
+
 .img-border-radius {
   border-radius: 3px 3px 0px 0px;
 }

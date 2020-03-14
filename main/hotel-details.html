@@ -24,6 +24,16 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <title>Hello, world!</title>
+  <style type="text/css">
+    .slick-next {
+    right: 0px !important;
+    display: none;
+    }
+    .slick-next:before {
+        content: '→';
+        display: none;
+    }
+  </style>
 </head>
 
 <body>
@@ -90,7 +100,7 @@
 
   <div class="container  th-card">
     <div class="row ">
-      <div class="col-lg-6 p-5" id="heightTest">
+      <div class="col-lg-6 p-4" id="heightTest">
         <div class="th-30 th-black th-bold py-2"">Taj Jumeirah Lakes Towers</div>
         <div class="th-14 th-orange th-bold py-1"><i class="fa fa-phone th-18 pr-2"></i><u>Apollo Bunder , Mumbai , 400 001</u>
         </div>
@@ -195,15 +205,53 @@
     </div>
 
     <!-- Mobile scroll bar image -->
-      <div class="mob-scroll-bar d-sm-none container ">
+    <div class="d-sm-none" style="padding: 10px;">
+      <div class="mob-scroll-bar ">
         <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
-        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
-        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
-        <div><div class="th-mob-scroll-img"   style="background-image: url('img/header.png');"></div></div>
-        <div>your content</div>
-        <div>your content</div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/img.png');"></div></div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/img2.png');"></div></div>
+        <div><div class="th-mob-scroll-img"   style="background-image: url('img/img.png');"></div></div>
       </div>
+      <!-- Modal -->
+      <div class="py-3 th-bold th-18 th-orange " id="showimage" style="cursor: pointer;">View Photo (5)</div>
+        <!-- The Modal -->
+        <div id="myModalImage" class="th-popup">
 
+          <!-- Modal content -->
+          <div class="popup-content">
+            <div class="col-lg-12">
+            <div class="row d-flex justify-content-between align-items-center">
+              
+                <div class="th-24 th-black th-bold">View Photo (5)</div>
+                <div class="th-close th-black">&times;</div>
+              </div>
+            </div>
+           
+            <div class="row th-20 th-medium th-black" style="overflow-y: scroll; height: 80vh">
+              <!-- <section class="bgimage" style="background-image: url('img/header.png');"></section> -->
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/header.png');"></div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/img.png');"></div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/img2.png');"></div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/img.png');"></div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/header.png');"></div>
+              </div>
+              <div class="col-sm-12 py-2">
+                <div class="th-mob-scroll-img" style="background-image: url('img/header.png');"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+              <!-- modal end -->
+    </div>
 <!-- Mobile scroll bar image end-->
   </div>
 
@@ -260,16 +308,37 @@
                     </div>
                   </div>
                 </div>
-                <div class="row align-items-center px-10">
+                <div class="row align-items-center px-10 d-sm-block d-none">
                   <div class="   "><span class="th-black th-32 th-bold">₹ 200202.00 </span>
                     <span class="th-grey th-18 th-strike px-1">₹ 200202.00</span>
                     <span class="th-grey th-18 th-bold px-1">2Room 2 Night</span></div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 d-sm-block d-none">
                 <div><button type="submit" class="th-btn-trans my-2" id="roomDetails1">Room Details</button></div>
                 <div><button type="submit" class="th-btn-solid my-2">View Details</button></div>
               </div>
+              <!-- Mobile responsive -->
+                <div class="container d-sm-none">
+                  <div class="row ">
+                      <div class="col">
+                        <div class="th-black th-24 th-bold">₹ 200202.00 </div>
+                        <div class="th-grey th-18 th-strike">₹ 200202.00</div>
+                      </div>
+                      <div class=" col" style="text-align: right;">
+                        <div class="th-grey th-18 th-bold ">2Room 2 Night</div>
+                      </div>
+                  </div>
+                  <div class="row align-items-center py-1">
+                    <div class="col">
+                      <div><button type="submit" class="th-btn-solid my-2">Book Now</button></div>
+                    </div>
+                    <div class="col">
+                      <div><button type="submit" class="th-btn-trans " id="roomDetails1" style="padding: 10px 12px;">Room Details</button></div>
+                    </div>
+                  </div>
+                </div>
+              <!-- Mobile responsive End -->
             </div>
           </div>
         </div>
@@ -368,16 +437,40 @@
                     </div>
                   </div>
                 </div>
-                <div class="row align-items-center px-10">
+                <div class="row align-items-center px-10 d-sm-block d-none">
                   <div class="   "><span class="th-black th-32 th-bold">₹ 200202.00 </span>
                     <span class="th-grey th-18 th-strike px-1">₹ 200202.00</span>
                     <span class="th-grey th-18 th-bold px-1">2Room 2 Night</span></div>
                 </div>
               </div>
-              <div class="col-md-3">
+              <div class="col-md-3 d-sm-block d-none">
                 <div><button type="submit" class="th-btn-trans my-2" id="roomDetails2">Room Details</button></div>
                 <div><button type="submit" class="th-btn-solid my-2">View Details</button></div>
               </div>
+
+              <!-- Mobile responsive -->
+                <div class="container d-sm-none">
+                  <div class="row ">
+                      <div class="col">
+                        <div class="th-black th-24 th-bold">₹ 200202.00 </div>
+                        <div class="th-grey th-18 th-strike">₹ 200202.00</div>
+                      </div>
+                      <div class=" col" style="text-align: right;">
+                        <div class="th-grey th-18 th-bold ">2Room 2 Night</div>
+                      </div>
+                  </div>
+                  <div class="row align-items-center py-1">
+                    <div class="col">
+                      <div><button type="submit" class="th-btn-solid my-2">Book Now</button></div>
+                    </div>
+                    <div class="col">
+                      <div><button type="submit" class="th-btn-trans " id="roomDetails1" style="padding: 10px 12px;">Room Details</button></div>
+                    </div>
+                  </div>
+                </div>
+              <!-- Mobile responsive End -->
+
+
             </div>
           </div>
         </div>
@@ -723,6 +816,34 @@ window.onclick = function(event) {
   }
 }
 </script>
+<script>
+// Get the modal
+var modal = document.getElementById("myModalImage");
+
+// Get the button that opens the modal
+var btn = document.getElementById("showimage");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("th-close")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
  <!-- Custom Js -->
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript" src="slick/slick.min.js"></script>
