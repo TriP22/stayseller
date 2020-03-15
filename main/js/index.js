@@ -36,6 +36,33 @@ $(document).ready(function(){
   ]
 });
 
+
+
+
+    $(".home-slider").slick({
+dots: true,
+            arrows: false,
+            infinite: false,
+            slidesToShow: 1,
+            slidesToScroll: 1,
+
+    //autoplay: true,
+    //dots: true
+    customPaging : function(slider, i) {
+        var title = $(slider.$slides[i]).data('title');
+        var subtitle = $(slider.$slides[i]).data('subtitle');
+        return '<div><div><a class="pager__item"> '+title+' </a><div><div> '+subtitle+' </div><div>';
+    },
+
+    //responsive: [{ 
+    //    breakpoint: 200,
+    //    settings: {
+    ///        d
+    //    } 
+    //}]
+});
+
+
   });
   
 $('.slider-for').slick({
@@ -53,3 +80,6 @@ $('.slider-nav').slick({
   centerMode: true,
   focusOnSelect: true
 });
+
+
+

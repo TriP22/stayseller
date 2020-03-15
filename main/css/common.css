@@ -345,6 +345,12 @@ body {
   top: 30%;
   left: 15%;
 }
+.home-slider-text {
+  position: absolute;
+  top: 30%;
+  /*left: ;*/
+  text-align: left;
+}
 .hero-text2 {
   position: absolute;
   top: 80%;
